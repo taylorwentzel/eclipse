@@ -12,4 +12,4 @@ Simply run the following inside the repository:
   ```sh
   ./run.sh
   ```
-Upon starting the game, press `[Alt] + [Shift] + [1]` to set your key bindings. 
+Upon starting the game, press `[Alt] + [Shift] + [1]` to set your key bindings. Key bindings only need to be set once.
