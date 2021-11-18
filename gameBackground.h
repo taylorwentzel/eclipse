@@ -1,0 +1,11 @@
+#ifndef GAMEBACKGROUND_H
+#define GAMEBACKGROUND_H
+
+extern const unsigned short gameBackground[38400];
+#define GAMEBACKGROUND_SIZE 76800
+#define GAMEBACKGROUND_LENGTH 38400
+#define GAMEBACKGROUND_WIDTH 240
+#define GAMEBACKGROUND_HEIGHT 160
+
+#endif
+
