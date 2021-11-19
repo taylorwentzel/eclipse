@@ -6,6 +6,7 @@ This game requires that [Mednafen](https://mednafen.github.io/) be installed.
    ```sh
    sudo apt-get install mednafen
    ```
+[Docker](https://www.docker.com/) is also required. Installation instructions can be found [here](https://docs.docker.com/get-docker/).
 
 ## Run
 Simply run the following inside the repository:
