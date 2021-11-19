@@ -195,7 +195,7 @@ AppState processDeath(AppState *currentAppState, u32 keysPressedBefore, u32 keys
         } else if ((nextAppState.baddies[n].enemyY < 223 || nextAppState.baddies[n].enemyY > 229) && currentAppState->score <= 40) {
             nextAppState.baddies[n].enemyY = ((nextAppState.baddies[n].enemyY + 2) % 256);
             nextAppState.justDied = 1;
-        } else if ((nextAppState.baddies[n].enemyY < 223 || nextAppState.baddies[n].enemyY > 229) && currentAppState->score <= 40) {
+        } else if ((nextAppState.baddies[n].enemyY < 223 || nextAppState.baddies[n].enemyY > 229) && currentAppState->score <= 60) {
             nextAppState.baddies[n].enemyY = ((nextAppState.baddies[n].enemyY + 3) % 256);
             nextAppState.justDied = 1;
         } else if ((nextAppState.baddies[n].enemyY < 223 || nextAppState.baddies[n].enemyY > 229) && currentAppState->score > 60) {
